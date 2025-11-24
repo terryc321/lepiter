@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:13:41.606974+01:00"
+						"dateAndTimeString" : "2025-09-06T00:07:41.300289+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:13:41.606974+01:00"
+						"dateAndTimeString" : "2025-09-06T00:07:52.720129+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ykQENnX6DQCEQwufCr2jCQ=="
+					"uidString" : "4FZFpHf6DQCcweAyAjteng=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "there is Bloc built on pharo , this is a page , can we execute some pharo code"
+				"string" : "there is Bloc built on pharo , this is a page , can we execute some pharo code\nuse spotter - SHIFT +RETURN- graphical stack"
 			},
 			{
 				"__type" : "textSnippet",
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:13:15.278631+01:00"
+						"dateAndTimeString" : "2025-09-05T21:13:41.606974+01:00"
 					}
 				},
 				"editEmail" : {
@@ -103,7 +103,44 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:13:46.646802+01:00"
+						"dateAndTimeString" : "2025-09-06T00:07:41.30296+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ykQENnX6DQCEQwufCr2jCQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-06T00:06:07.563317+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-06T00:06:07.563317+01:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "| m |\nm := "
+				"string" : ""
 			}
 		]
 	},
@@ -125,7 +162,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-09-05T21:12:48.931047+01:00"
+			"dateAndTimeString" : "2025-09-05T21:15:41.598764+01:00"
 		}
 	},
 	"editEmail" : {
@@ -136,12 +173,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-09-05T21:12:48.931047+01:00"
+			"dateAndTimeString" : "2025-09-05T21:15:41.598764+01:00"
 		}
 	},
 	"pageType" : {
-		"__type" : "unnamedPage",
-		"defaultTitle" : "Page"
+		"__type" : "namedPage",
+		"title" : "Bloc - Graphics for Pharo / Glamorous Toolkit "
 	},
 	"uid" : {
 		"__type" : "uuid",
