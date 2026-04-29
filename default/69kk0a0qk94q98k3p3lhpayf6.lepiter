@@ -1,0 +1,73 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T11:01:42.421314+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T11:16:05.784205+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8dpAssy9Q4KB+Iq1Q5r4Hw=="
+				},
+				"code" : "self"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-04-29T11:01:42.421295+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-04-29T11:01:42.421295+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "pharoClassPage",
+		"pageClassName" : "FileReference"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "c279192e-b356-46b5-af2b-c2b0d581d669"
+	}
+}

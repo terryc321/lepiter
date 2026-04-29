@@ -1,0 +1,345 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T10:35:48.071199+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T11:28:02.000962+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "R3jpREHAR/iLApZGBClLiw=="
+				},
+				"code" : "\"advent of code 2015 day8 - on lepiter - we need to put into coder for it to appear in Pharo-Advent-Of-Code github under the copied AOC2015Day8 class with methods and AOC2015Day8Test\""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T10:43:51.644069+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T10:44:18.038959+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8ooOFrLIQp2a1MQPafSyow=="
+				},
+				"code" : "\"how do we save the code we create here ?\""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T10:44:20.077224+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T10:53:40.422195+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gP5R9WUkSHOnbz18LxNXHg=="
+				},
+				"code" : "AOC2015Day8 "
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T11:00:53.390857+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T11:00:54.782047+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "1pqkgxF4TNq9WGyOsCcxSA=="
+				},
+				"code" : "Smalltalk imagePath"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T11:01:09.69141+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T11:06:27.336499+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gb9U+vQ2RWyQr6v/eO52ag=="
+				},
+				"code" : "FileSystem disk workingDirectory.\r\"pharo-local/iceberg/terryc321/Pharo-Advent-Of-Code/src\""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T11:03:21.198177+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T11:20:26.085308+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ig860RzBTS2Tg+3ruw2hOg=="
+				},
+				"code" : "\"local repository directory for this particular day\"\nrepoDir := FileSystem disk / 'home' / 'terry' / 'bin' / 'pharo-13' / 'pharo-local' / 'iceberg' / 'terryc321' / 'Pharo-Advent-Of-Code/' / 'docs' / 'advent-code' / '2015' / 'day8'  ."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T11:16:30.86902+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T11:23:26.82094+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "u/bEXmlKTjKvDq+wK988/Q=="
+				},
+				"code" : "\"~/bin/pharo-13/pharo-local/iceberg/terryc321/Pharo-Advent-Of-Code/docs/advent-code/2015/day8/\"\rinputFile := (repoDir / 'input.txt') readStreamDo: [:stream | stream contents]."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T11:03:23.663659+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T11:25:39.616144+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "DJRna0/QQOm09rZWmFTcJQ=="
+				},
+				"code" : "\"String cr. is carriage return \\r , whereas String lf is line feed - we can see from inspection inputFile that it is a line feed\"\rinputLines := (inputFile splitOn: (String lf))."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T11:25:46.795422+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T11:25:52.691209+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "WPhnjpuvT8WZomVgH1SHZw=="
+				},
+				"code" : "inputLines at: 1"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-04-29T11:20:38.296528+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-04-29T11:20:38.296528+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Advent code 2015 day 8"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "02c6e1ee-4eb9-49d4-98e2-379dcca9e656"
+	}
+}
