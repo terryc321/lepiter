@@ -171,14 +171,48 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T16:39:26.37652+01:00"
+						"dateAndTimeString" : "2026-04-29T17:41:42.569085+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "Jo6omTxpQZWdBs2XlokTGA=="
 				},
-				"code" : "\"Magic Missile costs 53 mana. It instantly does 4 damage.\nDrain costs 73 mana. It instantly does 2 damage and heals you for 2 hit points.\nShield costs 113 mana. It starts an effect that lasts for 6 turns. While it is active, your armor is increased by 7.\nPoison costs 173 mana. It starts an effect that lasts for 6 turns. At the start of each turn while it is active, it deals the boss 3 damage.\nRecharge costs 229 mana. It starts an effect that lasts for 5 turns. At the start of each turn while it is active, it gives you 101 new mana.\ronly spells with active \r\rread only most properties or functional approach copy effect and then reduce active count until zero\r\"\reffects := { \r{'Magic Missile' . 1 turn . 53 mana . 4 damage . 0 heal . 0 armor . 0 mana. 0 active.} . \r{'Drain' . 1 turn . 73 mana . 2 damage . 2 heal  . 0 armor . 0 mana. 0 active.} . \r{'Shield' . 6 turn . 113 mana . 0 damage . 0 heal . 7 armor . 0 mana. 0 active.} . \r{'Poison' . 6 turn . 173 mana . 3 damage . 0 heal . 0 armor . 0 mana. 0 active .} . \r{'Recharge' . 5 turn . 229 mana . 0 damage . 0 heal . 0 armor . 101 mana. 0 active.} }."
+				"code" : "\"Magic Missile costs 53 mana. It instantly does 4 damage.\nDrain costs 73 mana. It instantly does 2 damage and heals you for 2 hit points.\nShield costs 113 mana. It starts an effect that lasts for 6 turns. While it is active, your armor is increased by 7.\nPoison costs 173 mana. It starts an effect that lasts for 6 turns. At the start of each turn while it is active, it deals the boss 3 damage.\nRecharge costs 229 mana. It starts an effect that lasts for 5 turns. At the start of each turn while it is active, it gives you 101 new mana.\ronly spells with active \r\rread only most properties or functional approach copy effect and then reduce active count until zero\r\""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T17:28:35.605343+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T20:03:56.37423+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "LzBXGGzBQw6T8OaXsW/k3w=="
+				},
+				"code" : "myMana := 500. \"\"\rmyHits := 50. \"health\"\rbossHits := 55. \"health\"\rbossDamage := 8. \"plain damage each turn\"\r\"boss is essentially static in game\""
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -205,14 +239,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T16:56:52.991211+01:00"
+						"dateAndTimeString" : "2026-04-29T17:35:57.527625+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "fkIFqzP+QbilBeQL4rSaWw=="
 				},
-				"code" : "myMana := 500. \"\"\rmyHits := 50. \"health\"\rbossHits := 55. \"health\"\rbossDamage := 8. \"plain damage each turn\"\r\"boss is essentially static in this game - just does same thing each time\""
+				"code" : "aoc := AOC2015Day22 new.\rmissileEffect := aoc makeEffect: #('magic missile' 1 53 4 0 0 0 0)."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -228,7 +262,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T16:59:50.515856+01:00"
+						"dateAndTimeString" : "2026-04-29T17:37:10.100183+01:00"
 					}
 				},
 				"editEmail" : {
@@ -239,14 +273,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T17:00:06.868499+01:00"
+						"dateAndTimeString" : "2026-04-29T17:37:30.665667+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ct+U3OCmQi2+NPXUNB321g=="
+					"uidString" : "obE9Jy8YRdS8IYA0JD4n9Q=="
 				},
-				"code" : "dict := Dictionary new.\rdict at: 1 put: 111.\rdict."
+				"code" : "drainEffect := aoc makeEffect: #('drain' 1 73 2 2 0 0 0)."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -262,7 +296,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T16:03:40.954295+01:00"
+						"dateAndTimeString" : "2026-04-29T17:37:45.578988+01:00"
 					}
 				},
 				"editEmail" : {
@@ -273,14 +307,116 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T17:00:18.764704+01:00"
+						"dateAndTimeString" : "2026-04-29T17:38:09.959579+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "juPyoxeGS/Wo3lttmrq0xQ=="
+					"uidString" : "+eqw4ptDSJq7d/Lp8DDX5Q=="
 				},
-				"code" : "effect1 := (Dictionary new; \rat: #name put: 'magic missile' ; \rat: #turns put: 1 ;\rat:#mana put: 53;\rat:#damage put: 4;\rat:#active put: 0;\ryourself)."
+				"code" : "shieldEffect := aoc makeEffect: #('shield' 6 113 0 0 7 0 0)."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T17:38:19.641202+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T17:38:43.098634+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "osg9a705QlO8kefJaR2ixg=="
+				},
+				"code" : "poisonEffect := aoc makeEffect: #('poison' 6 173 3 0 0 0 0)."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T17:38:53.98383+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T17:39:20.351165+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "73SN0iDeQYeLgKSnxIxHpg=="
+				},
+				"code" : "rechargeEffect := aoc makeEffect: #('recharge' 5 229 0 0 0 101 0)."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T17:40:51.137214+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T17:41:01.883102+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2ZEMArUJRTGTgLKlKxPYUQ=="
+				},
+				"code" : "\"we can visually verify using inspector that effects are all 8 items long , only 5 effects\"\reffects := { missileEffect . drainEffect . shieldEffect . poisonEffect. rechargeEffect }."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -307,14 +443,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T16:03:41.137466+01:00"
+						"dateAndTimeString" : "2026-04-29T20:12:00.538029+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "1D8XpNOdT42aBcwcBg7JzQ=="
 				},
-				"code" : ""
+				"code" : "aoc := AOC2015Day22 new.\raoc initialState."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -341,48 +477,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T16:03:41.305332+01:00"
+						"dateAndTimeString" : "2026-04-29T20:17:02.546262+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "9sEp/Xq2R2e4PZBhEa12pw=="
 				},
-				"code" : ""
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T16:03:41.454595+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T16:03:41.454595+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "GYbeLPoCQAaKIHZhN/H9PQ=="
-				},
-				"code" : ""
+				"code" : "\"problem with next state is that it is recursive - wont ever terminate until give it \""
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -409,14 +511,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T16:03:41.640798+01:00"
+						"dateAndTimeString" : "2026-04-29T22:03:51.749389+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "iiH5iqKmQ4SF8wEHmBamRg=="
 				},
-				"code" : ""
+				"code" : "AOC2015Day22State"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -443,12 +545,318 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T16:03:41.973029+01:00"
+						"dateAndTimeString" : "2026-04-29T22:06:11.542819+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "WPG2h1hsS3O+fcOSksJDYQ=="
+				},
+				"code" : "-3 max: 0"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:06:47.081825+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:14:02.195907+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "DVzwhM+PQ6yA/N87Ch8ZGg=="
+				},
+				"code" : "|a|\ra := 3 - 2 max: 0.\ra\r"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:14:06.175113+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:14:25.591637+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "BoFEb0K+SU27HYLJ2H0ukA=="
+				},
+				"code" : "(true and: false)\r"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:13:55.304877+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:30:21.832693+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "PpYCRtsaTOahxielg7cqlw=="
+				},
+				"code" : "AOC201"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:14:07.89417+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:14:07.89417+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "j8/KMam8Q5mL63tAdgbc+Q=="
+				},
+				"code" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:14:08.102085+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:14:08.102085+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "u+V1XK68QjmrWr0nkHjdHw=="
+				},
+				"code" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:14:08.29564+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:14:08.29564+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "714N2HR2S5KGMvG236wPWg=="
+				},
+				"code" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:14:06.41908+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:14:06.41908+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "GOJ6QX+QQvW6kxtv3fevMg=="
+				},
+				"code" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:14:06.640717+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:14:06.640717+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "e2RscJlFTq2MdQ8AvvPqjA=="
+				},
+				"code" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:14:06.840345+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T22:14:06.840345+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "v01MWy/WQpGVVrX+jhENbA=="
 				},
 				"code" : ""
 			}
