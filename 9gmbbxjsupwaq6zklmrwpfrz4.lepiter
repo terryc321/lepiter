@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:12:34.506376+01:00"
+						"dateAndTimeString" : "2025-09-05T22:50:25.588693+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:13:01.314519+01:00"
+						"dateAndTimeString" : "2025-09-05T22:50:50.303905+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "rGoEMnX6DQCClrH1Cr2jCQ=="
+					"uidString" : "7QX2j3b6DQC0lAE4DaDRnw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "https://github.com/pharo-graphics/Bloc"
+				"string" : "{{gtPage:How to open the Morphic World|db=2j9m7db2i4oz116bexd7wbdxo}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:13:41.606974+01:00"
+						"dateAndTimeString" : "2025-09-05T23:04:36.064402+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,20 +66,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:13:41.606974+01:00"
+						"dateAndTimeString" : "2025-09-05T23:05:07.020266+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ykQENnX6DQCEQwufCr2jCQ=="
+					"uidString" : "Jienwnb6DQCHrTunBukkRw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "there is Bloc built on pharo , this is a page , can we execute some pharo code"
+				"string" : "really not completely usable as open class browser , but cannot change comments"
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:13:15.278631+01:00"
+						"dateAndTimeString" : "2025-09-05T22:51:00.545637+01:00"
 					}
 				},
 				"editEmail" : {
@@ -103,17 +103,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:13:46.646802+01:00"
+						"dateAndTimeString" : "2025-09-05T22:51:18.583277+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "fYFyNHX6DQCCn6GXCr2jCQ=="
+					"uidString" : "3WILknb6DQC0nSifDaDRnw=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "| m |\nm := "
+				"code" : "WinitWorldPixelsRenderer openMorphicWorld"
 			}
 		]
 	},
@@ -125,7 +122,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-09-05T21:12:48.931047+01:00"
+			"dateAndTimeString" : "2025-09-05T22:50:47.491951+01:00"
 		}
 	},
 	"editEmail" : {
@@ -136,15 +133,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-09-05T21:12:48.931047+01:00"
+			"dateAndTimeString" : "2025-09-05T22:50:47.491951+01:00"
 		}
 	},
 	"pageType" : {
-		"__type" : "unnamedPage",
-		"defaultTitle" : "Page"
+		"__type" : "namedPage",
+		"title" : "How do i reach morphic world from GT Glamorous Toolkit"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "8329b930-75fa-0d00-828e-a89a0abda309"
+		"uuid" : "60a4f58f-76fa-0d00-b493-392a0da0d19f"
 	}
 }

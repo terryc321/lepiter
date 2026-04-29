@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:12:34.506376+01:00"
+						"dateAndTimeString" : "2025-09-05T23:41:25.92022+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,20 +29,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:13:01.314519+01:00"
+						"dateAndTimeString" : "2025-09-05T23:42:20.826634+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "rGoEMnX6DQCClrH1Cr2jCQ=="
+					"uidString" : "SCQgQnf6DQCl0tT0AVLDug=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "https://github.com/pharo-graphics/Bloc"
+				"string" : "If like me like to know where my files are kept ~/code/lepiter  . also default directory ~/Documents/lepiter . \nas a backup i copy cp -rv ~/Documents/lepiter/* ~/code/lepiter "
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "shellCommandSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:13:41.606974+01:00"
+						"dateAndTimeString" : "2025-09-05T23:42:39.628493+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,20 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:13:41.606974+01:00"
+						"dateAndTimeString" : "2025-09-05T23:43:44.882459+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ykQENnX6DQCEQwufCr2jCQ=="
+					"uidString" : "2ZjDSnf6DQCp6SThAVLDug=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "there is Bloc built on pharo , this is a page , can we execute some pharo code"
+				"code" : "cp -rv ~/Documents/lepiter/* ~/code/lepiter\rcp -rv ~/code/lepiter/* ~/code/lepiter"
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -92,7 +89,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:13:15.278631+01:00"
+						"dateAndTimeString" : "2025-09-05T23:40:25.485424+01:00"
 					}
 				},
 				"editEmail" : {
@@ -103,17 +100,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-05T21:13:46.646802+01:00"
+						"dateAndTimeString" : "2025-09-05T23:40:28.39314+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "fYFyNHX6DQCCn6GXCr2jCQ=="
+					"uidString" : "ssfEQnf6DQCl2Qy1AVLDug=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "| m |\nm := "
+				"code" : "LeDatabasesRegistry defaultLogicalDatabase reload"
 			}
 		]
 	},
@@ -125,7 +119,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-09-05T21:12:48.931047+01:00"
+			"dateAndTimeString" : "2025-09-05T23:40:14.666123+01:00"
 		}
 	},
 	"editEmail" : {
@@ -136,15 +130,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-09-05T21:12:48.931047+01:00"
+			"dateAndTimeString" : "2025-09-05T23:41:23.932007+01:00"
 		}
 	},
 	"pageType" : {
-		"__type" : "unnamedPage",
-		"defaultTitle" : "Page"
+		"__type" : "namedPage",
+		"title" : "Recover default logical database local"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "8329b930-75fa-0d00-828e-a89a0abda309"
+		"uuid" : "fcb81f42-77fa-0d00-a5d1-578c0152c3ba"
 	}
 }
