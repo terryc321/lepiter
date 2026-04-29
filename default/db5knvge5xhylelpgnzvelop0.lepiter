@@ -194,6 +194,40 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T10:28:10.969215+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-29T10:30:46.0194+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "7ntJL9ZpQpy6macYfouWcw=="
+				},
+				"code" : "chart := RSCompositeChart new.\r\"just add not addPlot\"\nchart add: (RSLinePlot new x: (data collect: #first) y: (data collect: #second); yourself).\nchart xlabel: 'integer n'.\nchart ylabel: 'size factorial of n'.\rchart title: 'Plot of n versus size in characters factorial(n)'.\rchart build.\rchart open.\r"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2026-04-29T08:04:15.171912+01:00"
 					}
 				},
@@ -205,14 +239,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T10:11:56.461523+01:00"
+						"dateAndTimeString" : "2026-04-29T10:28:28.201968+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "nl6+LjixRUONO52+3CaSHg=="
 				},
-				"code" : "chart := RSCompositeChart new.\r\"just add not addPlot\"\nchart add: (RSLinePlot new x: (data collect: #first) y: (data collect: #second); yourself).\nchart xlabel: 'X Axis'.\nchart ylabel: 'Y Axis'.\rchart build.\rchart open."
+				"code" : ""
 			}
 		]
 	},
