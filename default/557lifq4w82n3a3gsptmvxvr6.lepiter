@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:28:02.000962+01:00"
+						"dateAndTimeString" : "2026-04-29T13:23:17.669479+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "R3jpREHAR/iLApZGBClLiw=="
 				},
-				"code" : "\"advent of code 2015 day8 - on lepiter - we need to put into coder for it to appear in Pharo-Advent-Of-Code github under the copied AOC2015Day8 class with methods and AOC2015Day8Test\""
+				"code" : "\"advent of code 2015 day8 - on lepiter - we need to put into coder for it to appear in Pharo-Advent-Of-Code github under the copied AOC2015Day8 class with methods and AOC2015Day8Test\r\rpackage AdventCode - class AOC2015Day8\rgit@github.com:terryc321/Pharo-Advent-Of-Code.git \""
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -675,14 +675,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:21.150794+01:00"
+						"dateAndTimeString" : "2026-04-29T13:23:59.978703+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "5oKlzDDCSb23+Dl1XNbINQ=="
 				},
-				"code" : "\r\r"
+				"code" : "\"part two \"\r"
 			},
 			{
 				"__type" : "pharoSnippet",
