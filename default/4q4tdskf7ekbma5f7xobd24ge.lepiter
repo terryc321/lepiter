@@ -636,6 +636,40 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-30T07:39:50.256817+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-04-30T07:39:58.497475+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Z/M8aOZfRg2aC5IGyspc1Q=="
+				},
+				"code" : "Transcript clear."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2026-04-29T22:13:55.304877+01:00"
 					}
 				},
@@ -647,14 +681,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T22:30:24.656808+01:00"
+						"dateAndTimeString" : "2026-04-30T07:40:10.58493+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "PpYCRtsaTOahxielg7cqlw=="
 				},
-				"code" : "AOC2015Day22State"
+				"code" : "s := AOC2015Day22State new.\rs class best: 999999999.\rs class best.\rs run.\r"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -681,14 +715,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T22:14:07.89417+01:00"
+						"dateAndTimeString" : "2026-04-30T11:11:11.588328+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "j8/KMam8Q5mL63tAdgbc+Q=="
 				},
-				"code" : ""
+				"code" : "-1 min: 1."
 			},
 			{
 				"__type" : "pharoSnippet",
