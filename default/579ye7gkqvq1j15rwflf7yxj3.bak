@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T10:35:48.071199+01:00"
+						"dateAndTimeString" : "2026-05-01T11:47:42.770971+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:23:17.669479+01:00"
+						"dateAndTimeString" : "2026-05-01T14:46:30.516123+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "R3jpREHAR/iLApZGBClLiw=="
+					"uidString" : "GTt8N8FaQwuRAyVPnYutNQ=="
 				},
-				"code" : "\"advent of code 2015 day8 - on lepiter - we need to put into coder for it to appear in Pharo-Advent-Of-Code github under the copied AOC2015Day8 class with methods and AOC2015Day8Test\r\rpackage AdventCode - class AOC2015Day8\rgit@github.com:terryc321/Pharo-Advent-Of-Code.git \""
+				"code" : "aoc := AOC2015Day9 new.\raoc."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -52,7 +52,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T10:43:51.644069+01:00"
+						"dateAndTimeString" : "2026-05-01T12:01:21.033991+01:00"
 					}
 				},
 				"editEmail" : {
@@ -63,14 +63,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T10:44:18.038959+01:00"
+						"dateAndTimeString" : "2026-05-01T14:31:36.516433+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "8ooOFrLIQp2a1MQPafSyow=="
+					"uidString" : "xpvxhydnQvaWHmJoczphRg=="
 				},
-				"code" : "\"how do we save the code we create here ?\""
+				"code" : "aoc inputLines."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -86,7 +86,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:00:53.390857+01:00"
+						"dateAndTimeString" : "2026-05-01T14:32:34.956514+01:00"
 					}
 				},
 				"editEmail" : {
@@ -97,14 +97,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:00:54.782047+01:00"
+						"dateAndTimeString" : "2026-05-01T14:40:57.754531+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "1pqkgxF4TNq9WGyOsCcxSA=="
+					"uidString" : "5R2JLt5xSRegNQI3eCUf0A=="
 				},
-				"code" : "Smalltalk imagePath"
+				"code" : "aoc makeTownTriples"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -120,7 +120,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:01:09.69141+01:00"
+						"dateAndTimeString" : "2026-05-01T11:54:13.766028+01:00"
 					}
 				},
 				"editEmail" : {
@@ -131,14 +131,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:06:27.336499+01:00"
+						"dateAndTimeString" : "2026-05-01T12:01:32.967371+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "gb9U+vQ2RWyQr6v/eO52ag=="
+					"uidString" : "E1m21A2gRviDY3PrATaBLA=="
 				},
-				"code" : "FileSystem disk workingDirectory.\r\"pharo-local/iceberg/terryc321/Pharo-Advent-Of-Code/src\""
+				"code" : "'AlphaCentauri' asSymbol."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -154,7 +154,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:03:21.198177+01:00"
+						"dateAndTimeString" : "2026-05-01T12:01:54.219241+01:00"
 					}
 				},
 				"editEmail" : {
@@ -165,320 +165,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:20:26.085308+01:00"
+						"dateAndTimeString" : "2026-05-01T12:05:04.041808+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ig860RzBTS2Tg+3ruw2hOg=="
+					"uidString" : "vfnQr+j3Rh24GUyMU3iClQ=="
 				},
-				"code" : "\"local repository directory for this particular day\"\nrepoDir := FileSystem disk / 'home' / 'terry' / 'bin' / 'pharo-13' / 'pharo-local' / 'iceberg' / 'terryc321' / 'Pharo-Advent-Of-Code/' / 'docs' / 'advent-code' / '2015' / 'day8'  ."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:16:30.86902+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:23:26.82094+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "u/bEXmlKTjKvDq+wK988/Q=="
-				},
-				"code" : "\"~/bin/pharo-13/pharo-local/iceberg/terryc321/Pharo-Advent-Of-Code/docs/advent-code/2015/day8/\"\rinputFile := (repoDir / 'input.txt') readStreamDo: [:stream | stream contents]."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:56:19.361144+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T12:29:32.094596+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "1TL3IZWpRlOrv0iIa4KLiA=="
-				},
-				"code" : "aoc := AOC2015Day8 new.\raoc inputLines\r"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:03:23.663659+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:25:39.616144+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "DJRna0/QQOm09rZWmFTcJQ=="
-				},
-				"code" : "\"String cr. is carriage return \\r , whereas String lf is line feed - we can see from inspection inputFile that it is a line feed\"\rinputLines := (inputFile splitOn: (String lf))."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:25:46.795422+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:38:03.342217+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "WPhnjpuvT8WZomVgH1SHZw=="
-				},
-				"code" : "inputLines at: 1"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:37:40.750964+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:38:47.502741+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "sCinRXBpQTuqxm+5hZFfqQ=="
-				},
-				"code" : "\"are all first and last characters of the inputLines the double quote? - looks like it\""
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:36:57.917751+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T12:11:51.019506+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "GwRKiWSOSY+iY0g8Orr2Rg=="
-				},
-				"code" : "\"try with first input line\"\rs := inputLines at: 1.\r\"skip first double quote\"\ri := 2 . \rt := 0 . \r[i <= (s size - 1)] whileTrue:[\r((s at: i) = $\\ and: [ (s at: (i + 1)) = $\" ]) \rifTrue: [ \"slash doublequote 2 chars in length\" \r            i := i + 2. t := t + 1 ]\rifFalse:[ \r   ((s at: i) = $\\ and: [ (s at: (i + 1)) = $x ]) \r   ifTrue: [ \"slash hex 4 chars in length\" \r             i := i + 4. t := t + 1 ] \r    ifFalse:[  \"is it whitespace?\"\r    ((s at: i) = String space) ifTrue:[ i := i + 1 ]\r                               ifFalse:[ \"normal character 1 char in length\"\r\t\t\t\t\t\t              i := i + 1.\r            \t\t\t\t\t\t  t := t + 1]]]].\rt              \r \r "
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T12:26:52.285794+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T12:27:01.352322+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "g1os1jnZRLCQpcLNR2qcNw=="
-				},
-				"code" : "(inputLines at: 1) size."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:54:40.769219+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T12:29:57.417834+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "zlVbPeEVSPmsIMN5ZL+tiw=="
-				},
-				"code" : "aoc countChars: (aoc inputLines at: 1).\r\"this seems to work , but has lepiter created class side methods - or has it done away with class side and instance side methods altogether\""
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T12:03:07.117101+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T12:48:34.790374+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "JCX3IjPvTqWkHiYDoYKuXg=="
-				},
-				"code" : "AOC2015Day8 solve1\r\"count all \"\r|tot aoc|\rtot := 0.\raoc := AOC2015Day8 new.\raoc inputLines do:[:line |\rtot := tot + (aoc countDifference: line).\r].\r^ tot\r"
+				"code" : "\"need a set - how do we build up a set of unique destinations , rather than full strings use symbols as the key in set , rather not. \rif let symbols be unique then . do we need a two way dictionary a -> b to give distance d ?? \rsimilarly b -> a to give distance d ??\""
 			},
 			{
 				"__type" : "textSnippet",
@@ -494,7 +188,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-05-01T10:41:56.462996+01:00"
+						"dateAndTimeString" : "2026-05-01T13:35:24.359058+01:00"
 					}
 				},
 				"editEmail" : {
@@ -505,17 +199,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-05-01T10:42:40.126933+01:00"
+						"dateAndTimeString" : "2026-05-01T13:52:25.951882+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "g5xfHezbSB2FRTYh/T2zNQ=="
+					"uidString" : "AxwgO2gdStCuHq1FQNq10Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "PART TWO\n\"\" encodes to \"\\\"\\\"\", an increase from 2 characters to 6.\n\"abc\" encodes to \"\\\"abc\\\"\", an increase from 5 characters to 9.\n\"aaa\\\"aaa\" encodes to \"\\\"aaa\\\\\\\"aaa\\\"\", an increase from 10 characters to 16.\n\"\\x27\" encodes to \"\\\"\\\\x27\\\"\", an increase from 6 characters to 11.\n\neach string gets encoded then surrounded by extra two double quotes \"your-encoded-string\""
+				"string" : "Needs some sort of travelling salesman solver, this is a solved puzzle.\nWe can try anyways - we can get a set of unique cities."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -531,7 +225,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T12:23:19.82009+01:00"
+						"dateAndTimeString" : "2026-05-01T11:55:10.9382+01:00"
 					}
 				},
 				"editEmail" : {
@@ -542,14 +236,51 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T12:32:19.989782+01:00"
+						"dateAndTimeString" : "2026-05-01T14:22:47.736177+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "471Vqhx8QRensciAHQ08fQ=="
+					"uidString" : "NP0IGLlwQjm8+7M69tMyaQ=="
 				},
-				"code" : "aoc check: '\"\"'."
+				"code" : "\rcities := Set new.\rtowns do:[:triple | \r cities add: (triple at: 1).\r cities add: (triple at: 2).\r].\rcities"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T13:52:34.521415+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T13:53:44.742969+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "WhZo7GytQ0uFlJ2evs4rhg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "For each city we can make a dictionary shows which places it can go to.\nThis is an undirected graph , so we can go from a to b , then we can go from b to a , incur the same cost. "
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -565,7 +296,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T12:34:02.802622+01:00"
+						"dateAndTimeString" : "2026-05-01T14:41:27.383813+01:00"
 					}
 				},
 				"editEmail" : {
@@ -576,14 +307,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T12:34:56.781606+01:00"
+						"dateAndTimeString" : "2026-05-01T14:41:46.733507+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "xkWADTwZSYCs4rJzAwrQYQ=="
+					"uidString" : "9yZQhmegRUK5XoL5ya8IfA=="
 				},
-				"code" : "aoc check: '\"abc\"'."
+				"code" : "AOC2015Day9 makeDistances"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -599,7 +330,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T12:34:40.785737+01:00"
+						"dateAndTimeString" : "2026-05-01T13:53:29.563117+01:00"
 					}
 				},
 				"editEmail" : {
@@ -610,14 +341,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T12:34:51.761166+01:00"
+						"dateAndTimeString" : "2026-05-01T13:56:45.470812+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "BMknWmwFTnujcUG0cB8ePA=="
+					"uidString" : "N2VM3qlUQY+vu8zqOfAuXw=="
 				},
-				"code" : "aoc check: '\"aaa\\\"aaa\"'."
+				"code" : "\"a dictionary of dictionaries\"\rtop := Dictionary new.\rcities do:[:city |\r\ttop at: city put: (Dictionary new)\r].\rtop\r"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -633,7 +364,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T12:35:23.81881+01:00"
+						"dateAndTimeString" : "2026-05-01T13:53:52.275868+01:00"
 					}
 				},
 				"editEmail" : {
@@ -644,14 +375,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T12:35:29.672571+01:00"
+						"dateAndTimeString" : "2026-05-01T14:15:41.239056+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "MVIg3DEKROCfIVhytcQO7Q=="
+					"uidString" : "Pos2NToDSju2SANBMoJO3g=="
 				},
-				"code" : "aoc check: '\"\\x27\"'."
+				"code" : "towns do: [:triple | \"a / b / distance-a-to-b\"\r | distanceDict a b dist |\r a := triple at: 1 . \r b := triple at: 2 .\r dist := triple at: 3. \r (top at: a) at: b put: dist.\r (top at: b) at: a put: dist.\r ].\r top.\r "
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -667,7 +398,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:54:29.251237+01:00"
+						"dateAndTimeString" : "2026-05-01T13:53:52.487855+01:00"
 					}
 				},
 				"editEmail" : {
@@ -678,14 +409,125 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-05-01T11:07:40.861555+01:00"
+						"dateAndTimeString" : "2026-05-01T14:02:50.004318+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "4XfhoLR6QtKnEs52ZASxjw=="
+					"uidString" : "Cd03i+HXRg+3eyQ4+M3EBA=="
 				},
-				"code" : "AOC2015Day8Test new testSolve2"
+				"code" : "top at: #Tambi at: #Arbre."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T14:08:42.380883+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T14:08:47.182+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "vxnn8k9cTMSgc+Gc4Y1J4g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Suppose i have N towns , the shortest path travelling salesman will have N distances , which N and in which order is the question. potentially collect the shortest distances and say hypothesis that the sum of shortest distances is the answer , but completely foolhardy ,but it does give a little insight perhaps..."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T14:08:48.87022+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T14:09:45.010837+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mRnevrXqQNagim0o2Z+/uQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We could also have a 2x2 grid where a lookup is taken , some squares cannot be accessed so they would have a nominal token value meaning not available , perhaps zero is a good candidate indicating that no distance was travelled."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T14:12:45.229011+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T14:14:33.270992+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OMM8E67IQhCUlT49vHsHOQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "start town has to be reached from end town , so if put it as a list start at top , end town at bottom, \nwhat other town connects to top , what towns connect to bottom , so on and so forth until reach a pair of towns that either connect together (no middle town) or connect to a middle town, the odd evens split. Lets see if we can make a little algorithm"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -701,7 +543,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:19.374236+01:00"
+						"dateAndTimeString" : "2026-05-01T13:53:52.701539+01:00"
 					}
 				},
 				"editEmail" : {
@@ -712,182 +554,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-05-01T10:31:29.80544+01:00"
+						"dateAndTimeString" : "2026-05-01T14:08:39.813945+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "5oKlzDDCSb23+Dl1XNbINQ=="
-				},
-				"code" : "AOC2015Day8\r"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:22.174997+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-05-01T11:00:32.812926+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "/C/uGvOsR0m/YtDun683+g=="
-				},
-				"code" : "| a b s|\rs := '\"\"'.\ra := aoc countCharsInMemory2: s.\rb := aoc countChars: s. \r{ a . b }"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:22.435304+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-05-01T11:01:10.624586+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "tpSQYheMS1OvM0R74S2QQw=="
-				},
-				"code" : "| a b s|\rs := '\"abc\"'.\ra := aoc countCharsInMemory2: s.\rb := aoc countChars: s. \r{ a . b }"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:22.624002+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-05-01T11:01:37.619669+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "Qck1IVzHTrSAVsjOQponbA=="
-				},
-				"code" : "| a b s|\rs := '\"aaa\\\"aaa\"'.\ra := aoc countCharsInMemory2: s.\rb := aoc countChars: s. \r{ a . b }"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:22.857823+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-05-01T11:02:15.859136+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "0C8uzwVwS12V4ZyQDCB48A=="
-				},
-				"code" : "| a b s|\rs := '\"\\x27\"'.\ra := aoc countCharsInMemory2: s.\rb := aoc countChars: s. \r{ a . b }"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:23.208223+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:23.208223+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "v+/+hWMfQb2ZnrtRYfoA0A=="
+					"uidString" : "R8qPo8wATaOPdvPEqIpqlQ=="
 				},
 				"code" : ""
 			},
@@ -905,7 +577,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:23.428413+01:00"
+						"dateAndTimeString" : "2026-05-01T13:53:52.872666+01:00"
 					}
 				},
 				"editEmail" : {
@@ -916,12 +588,46 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:23.428413+01:00"
+						"dateAndTimeString" : "2026-05-01T14:29:56.250025+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "40xw/YbFRXWOfxYp9N65FQ=="
+					"uidString" : "hjP0ozVRRAOq29MTZyu22Q=="
+				},
+				"code" : "aoc := AOC2015Day9 new.\raoc."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T13:53:53.035193+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T13:53:53.035193+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "s8IBgcerSuuiNew5SgmEbA=="
 				},
 				"code" : ""
 			},
@@ -939,7 +645,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:23.790404+01:00"
+						"dateAndTimeString" : "2026-05-01T13:53:53.220198+01:00"
 					}
 				},
 				"editEmail" : {
@@ -950,12 +656,114 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:23.790404+01:00"
+						"dateAndTimeString" : "2026-05-01T13:53:53.220198+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "fxHvId5YQUKYTTBH4MOzTg=="
+					"uidString" : "6N6FnFapRGO+cHXdmMpUHw=="
+				},
+				"code" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T13:53:53.669842+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T13:53:53.669842+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "zCWkxXXvSJazWINEvo6sgw=="
+				},
+				"code" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T13:53:53.876488+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T13:53:53.876488+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SIGEfDWZR7SJUh1FihAC2A=="
+				},
+				"code" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T13:53:54.167525+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T13:53:54.167525+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4TAqPP6MQ7atB2aRK1ofuw=="
 				},
 				"code" : ""
 			}
@@ -969,7 +777,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2026-04-29T11:20:38.296528+01:00"
+			"dateAndTimeString" : "2026-05-01T11:31:17.206062+01:00"
 		}
 	},
 	"editEmail" : {
@@ -980,15 +788,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2026-04-29T11:20:38.296528+01:00"
+			"dateAndTimeString" : "2026-05-01T11:31:17.206062+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Advent code 2015 day 8"
+		"title" : "Advent of Code 2015 day 9"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "02c6e1ee-4eb9-49d4-98e2-379dcca9e656"
+		"uuid" : "3ff10918-5bb9-4418-9220-cd87bfc2de57"
 	}
 }

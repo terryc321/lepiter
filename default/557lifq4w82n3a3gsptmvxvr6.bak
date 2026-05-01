@@ -481,6 +481,43 @@
 				"code" : "AOC2015Day8 solve1\r\"count all \"\r|tot aoc|\rtot := 0.\raoc := AOC2015Day8 new.\raoc inputLines do:[:line |\rtot := tot + (aoc countDifference: line).\r].\r^ tot\r"
 			},
 			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T10:41:56.462996+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-01T10:42:40.126933+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "g5xfHezbSB2FRTYh/T2zNQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "PART TWO\n\"\" encodes to \"\\\"\\\"\", an increase from 2 characters to 6.\n\"abc\" encodes to \"\\\"abc\\\"\", an increase from 5 characters to 9.\n\"aaa\\\"aaa\" encodes to \"\\\"aaa\\\\\\\"aaa\\\"\", an increase from 10 characters to 16.\n\"\\x27\" encodes to \"\\\"\\\\x27\\\"\", an increase from 6 characters to 11.\n\neach string gets encoded then surrounded by extra two double quotes \"your-encoded-string\""
+			},
+			{
 				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
@@ -675,48 +712,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:21.150794+01:00"
+						"dateAndTimeString" : "2026-05-01T10:31:29.80544+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "5oKlzDDCSb23+Dl1XNbINQ=="
 				},
-				"code" : "\r\r"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:21.720682+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:21.720682+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "we/4DDacQOSqO39v1ccu8g=="
-				},
-				"code" : ""
+				"code" : "AOC2015Day8\r"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -743,14 +746,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:22.174997+01:00"
+						"dateAndTimeString" : "2026-05-01T11:00:32.812926+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "/C/uGvOsR0m/YtDun683+g=="
 				},
-				"code" : ""
+				"code" : "| a b s|\rs := '\"\"'.\ra := aoc countCharsInMemory2: s.\rb := aoc countChars: s. \r{ a . b }"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -777,14 +780,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:22.435304+01:00"
+						"dateAndTimeString" : "2026-05-01T11:01:10.624586+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "tpSQYheMS1OvM0R74S2QQw=="
 				},
-				"code" : ""
+				"code" : "| a b s|\rs := '\"abc\"'.\ra := aoc countCharsInMemory2: s.\rb := aoc countChars: s. \r{ a . b }"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -811,14 +814,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:22.624002+01:00"
+						"dateAndTimeString" : "2026-05-01T11:01:37.619669+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "Qck1IVzHTrSAVsjOQponbA=="
 				},
-				"code" : ""
+				"code" : "| a b s|\rs := '\"aaa\\\"aaa\"'.\ra := aoc countCharsInMemory2: s.\rb := aoc countChars: s. \r{ a . b }"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -845,14 +848,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T13:20:22.857823+01:00"
+						"dateAndTimeString" : "2026-05-01T11:02:15.859136+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "0C8uzwVwS12V4ZyQDCB48A=="
 				},
-				"code" : ""
+				"code" : "| a b s|\rs := '\"\\x27\"'.\ra := aoc countCharsInMemory2: s.\rb := aoc countChars: s. \r{ a . b }"
 			},
 			{
 				"__type" : "pharoSnippet",
