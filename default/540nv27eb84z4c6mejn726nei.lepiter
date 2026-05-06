@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-05-06T09:38:23.478687+01:00"
+						"dateAndTimeString" : "2026-05-06T13:06:44.87242+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "HEdWEKTBT8up120XLnF1Cg=="
 				},
-				"code" : "self reject:[:c | c = $: or: [c = $,]]."
+				"code" : "self delete."
 			}
 		]
 	},

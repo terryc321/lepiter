@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T11:01:00.586019+01:00"
+						"dateAndTimeString" : "2026-05-06T12:39:45.780498+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-05-06T09:38:23.478687+01:00"
+						"dateAndTimeString" : "2026-05-06T12:40:52.725705+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "HEdWEKTBT8up120XLnF1Cg=="
+					"uidString" : "dVrU/+yPR7qwtwKCfhkHfA=="
 				},
-				"code" : "self reject:[:c | c = $: or: [c = $,]]."
+				"code" : "self html"
 			}
 		]
 	},
@@ -48,7 +48,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2026-04-29T11:01:00.585998+01:00"
+			"dateAndTimeString" : "2026-05-06T12:39:45.780474+01:00"
 		}
 	},
 	"editEmail" : {
@@ -59,15 +59,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2026-04-29T11:01:00.585998+01:00"
+			"dateAndTimeString" : "2026-05-06T12:39:45.780474+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "pharoClassPage",
-		"pageClassName" : "ByteString"
+		"pageClassName" : "LePage"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "faa921f4-66e6-4b0c-880a-9abd02695756"
+		"uuid" : "c9e72d30-98eb-41b9-9948-4f7861cd9b2a"
 	}
 }

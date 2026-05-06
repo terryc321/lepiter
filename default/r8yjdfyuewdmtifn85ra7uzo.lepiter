@@ -1,0 +1,277 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T12:58:20.153885+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T15:44:48.43142+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "z4W63QsbSFef+b/FyA+eMQ=="
+				},
+				"code" : "aoc := AOC2015Day17 new"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T13:05:14.788475+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T13:05:14.788475+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mXdLDfoQQkCpf31ZWBNDgA=="
+				},
+				"code" : "aoc input"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T13:05:55.821816+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T13:10:27.315547+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yniXks/bS1Omxv5xlmO/ow=="
+				},
+				"code" : "aoc example"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T13:12:17.087006+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T15:49:34.069829+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "WAVvvvWGThSSw+PJPLlY9Q=="
+				},
+				"code" : "\"all ways can make a certain number #(20 15 10 5 5) for 25 litres \"\r| arr sz target |\rtarget := 25.\rarr := aoc example.\rsz := arr size.\racc := OrderedCollection new.\r\"one\"\r(1 to: sz) do:[:ai | \r       a := arr at: ai.\r       a = target ifTrue: [ acc add: { a }  ]].\r\r\"two\"\r(1 to: sz) do:[:ai | \r  ((ai + 1) to: sz) do:[:bi | \r      a := arr at: ai.\r      b := arr at: bi.\r     (a + b) = target ifTrue: [ acc add: { a . b }  ]]].\r\r\"three\"\r(1 to: sz) do:[:ai | \r  ((ai + 1) to: sz) do:[:bi | \r   ((bi + 1) to: sz) do:[:ci | \r      a := arr at: ai.\r      b := arr at: bi.\r      c := arr at: ci.\r     ((a + b)+c) = target ifTrue: [ acc add: { a . b .c }  ]]]].\r\r\"four\"     \r(1 to: sz) do:[:ai | \r  ((ai + 1) to: sz) do:[:bi | \r   ((bi + 1) to: sz) do:[:ci | \r   ((ci + 1) to: sz) do:[:di | \r      a := arr at: ai.\r      b := arr at: bi.\r      c := arr at: ci.\r      d := arr at: di.\r     (((a + b)+c)+d) = target ifTrue: [ acc add: { a . b . c . d }  ]]]]].\r     \r\"five\"     \r(1 to: sz) do:[:ai | \r  ((ai + 1) to: sz) do:[:bi | \r   ((bi + 1) to: sz) do:[:ci | \r   ((ci + 1) to: sz) do:[:di | \r   ((di + 1) to: sz) do:[:ei | \r      a := arr at: ai.\r      b := arr at: bi.\r      c := arr at: ci.\r      d := arr at: di.\r      e := arr at: ei.\r     ((((a + b)+c)+d)+e) = target ifTrue: [ acc add: { a . b . c . d . e}  ]]]]]].\r          \r     acc.     "
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T13:12:20.299688+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T15:56:31.832701+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OHV+oq2qTPiTkhSHoRe/OA=="
+				},
+				"code" : "AOC2015Day17 exampleSearch"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T16:40:38.420316+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T16:40:42.012644+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6HLC+QiwRIepXrrkLeNiiA=="
+				},
+				"code" : "aoc part1."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T16:40:45.187457+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T16:40:47.511906+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "/X4lxGAFTtCjHguhxBDK1w=="
+				},
+				"code" : "aoc part2."
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-05-06T12:56:44.164646+01:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2026-05-06T12:56:44.164646+01:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Advent of code 2015 day 17 "
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "a47e5528-a24e-4e45-ab7b-586e0401c90c"
+	}
+}
