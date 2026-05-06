@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-05-06T00:26:30.375048+01:00"
+						"dateAndTimeString" : "2026-05-06T00:01:03.264513+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "YJ3P0HDmSaCviV4d3jUzmg=="
 				},
-				"code" : "((77 * 39)* 60)* 62"
+				"code" : "AOC2015Day15Test testBrute"
 			}
 		]
 	},

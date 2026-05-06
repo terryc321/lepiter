@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T07:51:49.226192+01:00"
+						"dateAndTimeString" : "2026-05-06T09:36:56.407813+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-05-06T00:26:30.375048+01:00"
+						"dateAndTimeString" : "2026-05-06T09:47:11.135008+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "YJ3P0HDmSaCviV4d3jUzmg=="
+					"uidString" : "+cQ7jTXxRyuCC1ZgFe9+yg=="
 				},
-				"code" : "((77 * 39)* 60)* 62"
+				"code" : "BlSpace userFontScale: 0.9"
 			}
 		]
 	},
@@ -48,7 +48,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2026-04-29T07:51:49.226177+01:00"
+			"dateAndTimeString" : "2026-05-06T09:37:08.062793+01:00"
 		}
 	},
 	"editEmail" : {
@@ -59,15 +59,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2026-04-29T07:51:49.226177+01:00"
+			"dateAndTimeString" : "2026-05-06T09:37:08.062793+01:00"
 		}
 	},
 	"pageType" : {
-		"__type" : "pharoClassPage",
-		"pageClassName" : "Array"
+		"__type" : "namedPage",
+		"title" : "How do i increase font size in gtoolkit"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "86dde07e-cfa5-40fc-8867-4d7276d93ef1"
+		"uuid" : "11a17d14-5bc3-4906-a449-5266f349732f"
 	}
 }

@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-04-29T07:51:49.226192+01:00"
+						"dateAndTimeString" : "2026-05-06T10:24:39.31536+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,14 +29,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-05-06T00:26:30.375048+01:00"
+						"dateAndTimeString" : "2026-05-06T10:24:54.611268+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "YJ3P0HDmSaCviV4d3jUzmg=="
+					"uidString" : "9RhgI+QdRqayYYS4GIEkag=="
 				},
-				"code" : "((77 * 39)* 60)* 62"
+				"code" : "AOC2015Day1"
 			}
 		]
 	},
@@ -48,7 +48,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2026-04-29T07:51:49.226177+01:00"
+			"dateAndTimeString" : "2026-05-06T10:24:39.315344+01:00"
 		}
 	},
 	"editEmail" : {
@@ -59,15 +59,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2026-04-29T07:51:49.226177+01:00"
+			"dateAndTimeString" : "2026-05-06T10:24:39.315344+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "pharoClassPage",
-		"pageClassName" : "Array"
+		"pageClassName" : "AOC2015Day16"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "86dde07e-cfa5-40fc-8867-4d7276d93ef1"
+		"uuid" : "34d76a27-8323-4870-b503-3223f54450dd"
 	}
 }
